@@ -1,0 +1,42 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "21.1.2"
+
+    defaultConfig {
+        applicationId "com.bm.projectxxx"
+        minSdkVersion 9
+        targetSdkVersion 21
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    //    compile fileTree(dir: 'libs', include: ['*.jar'])
+    //    compile files('libs/gson-2.2.4.jar')
+    //    compile files('libs/picasso-2.5.2.jar')
+    //    compile files('libs/retrofit-1.9.0.jar')
+    //    compile files('libs/okhttp-2.2.0.jar')
+    //    compile files('libs/okio-1.2.0.jar')
+    compile 'com.android.support:appcompat-v7:22.1.1'
+    compile 'com.facebook.fresco:fresco:0.5.0'
+    compile 'com.facebook.fresco:drawee:0.5.0'
+    compile 'com.facebook.fresco:drawee-volley:0.5.0'
+    compile 'com.facebook.fresco:fbcore:0.5.0'
+    compile 'com.facebook.fresco:imagepipeline:0.5.0'
+    compile 'com.facebook.fresco:imagepipeline-okhttp:0.5.0'
+    compile 'com.android.support:support-v4:22.1.1'
+    compile 'com.google.code.gson:gson:2.3.1'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'com.squareup.retrofit:retrofit:1.9.0'
+    compile 'com.google.okhttp:okhttp:20120626'
+    compile 'com.squareup.okio:okio:1.4.0'
+}

@@ -1,0 +1,93 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ripple="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+
+    <com.handmark.pulltorefresh.library.PullToRefreshScrollView
+        android:id="@+id/ptr_scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:scrollbarStyle="outsideOverlay"
+        android:scrollbarThumbVertical="@drawable/base_list_scrollbar_handle">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:text="Picasso:"
+                android:textColor="@color/general_text_color2"
+                android:textSize="16sp" />
+
+            <com.bm.projectxxx.views.CustomSquareImageView
+                android:id="@+id/civ_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                android:scaleType="centerCrop" />
+
+            <com.andexert.rippleeffect.RippleView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                ripple:rv_color="#a7a7a7"
+                ripple:rv_type="rectangle">
+
+                <Button
+                    android:id="@+id/btn_dialog"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/custom_dialog_bg_shape"
+                    android:padding="10dp"
+                    android:text="常用对话框"
+                    android:textColor="@color/general_text_color2"
+                    android:textSize="14sp" />
+            </com.andexert.rippleeffect.RippleView>
+
+            <Button
+                android:id="@+id/btn_fresco"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/custom_dialog_bg_shape"
+                android:padding="10dp"
+                android:text="Fresco"
+                android:textColor="@color/general_text_color2"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btn_overlay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/custom_dialog_bg_shape"
+                android:padding="10dp"
+                android:text="标题栏overlay测试"
+                android:textColor="@color/general_text_color2"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btn_fragment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/custom_dialog_bg_shape"
+                android:padding="10dp"
+                android:text="Fragment测试"
+                android:textColor="@color/general_text_color2"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </com.handmark.pulltorefresh.library.PullToRefreshScrollView>
+
+</LinearLayout>

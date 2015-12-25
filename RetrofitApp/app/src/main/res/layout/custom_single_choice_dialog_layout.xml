@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ripple="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="@drawable/custom_dialog_bg_shape"
+    android:orientation="vertical" >
+
+    <com.andexert.rippleeffect.RippleView
+        android:id="@+id/rv_choice1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ripple:rv_color="#a7a7a7"
+        ripple:rv_type="rectangle" >
+
+        <TextView
+            android:id="@+id/tv_choice1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="选择项1"
+            android:textColor="#3e3e3e"
+            android:textSize="20sp" />
+    </com.andexert.rippleeffect.RippleView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#b5b5b6" />
+
+    <com.andexert.rippleeffect.RippleView
+        android:id="@+id/rv_choice2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ripple:rv_color="#a7a7a7"
+        ripple:rv_type="rectangle" >
+
+        <TextView
+            android:id="@+id/tv_choice2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="选择项2"
+            android:textColor="#3e3e3e"
+            android:textSize="20sp" />
+    </com.andexert.rippleeffect.RippleView>
+
+</LinearLayout>

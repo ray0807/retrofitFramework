@@ -1,0 +1,50 @@
+<resources>
+
+    <!-- general -->
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="dark">#f1f1ec</color>
+    <color name="light_white">#bababa</color>
+    <color name="transparent_thirty_percent">#4C000000</color>
+    <color name="transparent_fifty_percent">#80000000</color>
+    <color name="transparent_white">#80ffffff</color>
+    <color name="transparent_sixty_percent">#A3000000</color>
+    <color name="transparent_seventy_percent">#B2000000</color>
+    <color name="transparent_eighty_percent">#CC000000</color>
+    <color name="general_background_color">#ffffff</color>
+    <color name="general_title_background">#e77d73</color>
+    <color name="general_title_text_color">#ffffff</color>
+    <color name="general_dividing_line_color">#bdbdbd</color>
+    <!-- 灰色 -->
+    <color name="general_text_color">#5b5b5b</color>
+    <!-- 浅黑色 -->
+    <color name="general_text_color2">#3e3e3e</color>
+    <!-- 橘红色 -->
+    <color name="general_text_color3">#f46d2d</color>
+    <!-- 浅灰色 -->
+    <color name="general_text_color4">#d2d4d9</color>
+    <!-- 淡灰色 -->
+    <color name="general_light_grey">#f4f3f3</color>
+    <!-- general -->
+    
+    <!-- loading框背景颜色 -->
+<!--     <color name="general_loading_bg_color">#eCf5f5f5</color> -->
+    <color name="general_loading_bg_color">#bbffffff</color>
+    <!-- loading框文字颜色 -->
+    <color name="general_loading_text_color">#3F404D</color>
+    <!-- loading框ProgressBar颜色 -->
+    <color name="general_loading_progressbar_color">#3F404D</color>
+    
+    <!-- 状态栏颜色 -->
+    <color name="statusbar_general_color">@color/general_title_background</color>
+    
+    <!-- 涟漪效果默认颜色 -->
+    <color name="rippelColor">#a7a7a7</color>
+    
+    <!-- materia loadding -->
+    <color name="red">#FFC93437</color>
+    <color name="blue">#FF375BF1</color>
+    <color name="yellow">#FFF7D23E</color>
+    <color name="green">#FF34A350</color>
+
+</resources>
