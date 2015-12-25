@@ -1,0 +1,2 @@
+# retrofitFramework
+使用retrofit搭建的这个android开发环境，集成了图片加载，网络请求高级封装，等功能，分别有studio版本和eclipse版本
